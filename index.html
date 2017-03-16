@@ -10,13 +10,12 @@
   </head>
   <body class="template">    
     <div class="template-wrap clear">
+      <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="600px" width="960px"></canvas>
+      <br>
       <div>
       Press 'A','D' for move. Press Space for jump. Press R to use Companion's skill. Left click mouse to attack and right click mouse to shoot. </br>
 There are many functions not implemented. For example, companion ai currently can't jump with player. It only provides a image for future game design.
       </div>
-      <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="600px" width="960px"></canvas>
-      <br>
-      <div class="logo"></div>
       <div class="fullscreen"><img src="TemplateData/fullscreen.png" width="38" height="38" alt="Fullscreen" title="Fullscreen" onclick="SetFullscreen(1);" /></div>
       <div class="title">KataraSideviewPrototype</div>
     </div>
